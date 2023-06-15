@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 img{
   width: 80px;
   height: 40px;
@@ -13,7 +16,8 @@ nav{
   color: black;
 }
 .second{
-  margin-top: 100px;
+  margin-top: 130px;
   background-color: brown;
-  height: 500px;
+  height: auto;
+  max-width: 100%;
 }

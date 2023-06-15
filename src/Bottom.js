@@ -1,10 +1,10 @@
 export default function Bottom(){
   return (
     <div>
-      <div className="container-fluid bg-dark text-center">
+      <div className="container-fluid w-100 h-100  bg-dark text-center second">
       <h1>Know me more</h1>
-        <div className="row text-start">
-            <div className="col-8 ">
+        <div className="row text-start ">
+            <div className=" col-lg-7 col-xl-8 col-sm-12 ">
             <h1>I'm MaryGerealdine, a Web Developer</h1>
             <p>I help you build brand for your business at an affordable price. Thousands of clients have 
               procured exceptional results while working with our dedicated team. when
@@ -17,7 +17,7 @@ export default function Bottom(){
             </p>
 
           </div>
-          <div className="col-4">
+          <div className="col-lg-5 col-xl-4 col-sm-0">
             <p>Name: Geraldine</p>
             <hr></hr>
             <p>email: me.ejiofor@unizik.edu.ng</p>
